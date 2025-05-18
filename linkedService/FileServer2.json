@@ -1,0 +1,17 @@
+{
+	"name": "FileServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\PerfLogs",
+			"userId": "omkargunjal",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4ZTYwMmVhNi00YmJhLTQxMjktOTQ0Ni0xYzQwYTU0ODc3ZDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2shir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
