@@ -1,0 +1,42 @@
+{
+	"name": "AzureSynapseAnalyticsTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "customerid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "customername",
+				"type": "varchar"
+			},
+			{
+				"name": "Registered",
+				"type": "bit"
+			},
+			{
+				"name": "Courses",
+				"type": "varchar"
+			},
+			{
+				"name": "Mobile",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customercoursemobile"
+		}
+	}
+}
